@@ -1,0 +1,48 @@
+.layout {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#pic {
+  position: relative;
+}
+
+#pic .item {
+  position: absolute;
+  width: 280px;
+  margin: 10px;
+  border: 1px solid #dfdfdf;
+  opacity: 0;
+  transition: all .8;
+}
+
+#pic .item a {
+  display: inline-block;
+}
+
+#pic .item img {
+  width: 258px;
+  margin: 10px;
+}
+
+#pic .item .header {
+  height: 25px;
+  margin: 0 10px;
+  border-bottom: 1px solid #DBDBDB;
+  color: black;
+}
+
+#pic .item .cont {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 10px;
+  color: #777371;
+}
+
+#pic .hide {
+  display: none;
+}
+
+#loadIng {
+  visibility: hidden;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>瀑布流与懒加载</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <div class="contain">
+      <ul id="pic">
+        <!-- <li class="item">
+          <a href="#">
+            <img src="http://s.img.mix.sina.com.cn/auto/resize?img=http%3A%2F%2Fwww.sinaimg.cn%2Fdy%2Fslidenews%2F5_img%2F2016_09%2F453_75615_657883.jpg&size=250_0" alt="">
+            <h4 class="header">标题</h4>
+            <p class="cont">当地时间2016年3月1日，在东部与亲俄武装作战中受伤的乌克兰士兵接受海豚治疗。</p>
+          </a>
+        </li> -->
+        <li class="item hide"></li>
+      </ul>
+      <div id="loadIng">看到我了</div>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
